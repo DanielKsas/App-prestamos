@@ -10,7 +10,7 @@ public class Main {
         System.out.println("sistema de préstamos con interés simple");
         System.out.println("Por favor, ingrese la información solicitada.\n");
 
-        // Datos clientes 
+        // Datos clientes
         System.out.print("Nombre del cliente: ");
         String nombreCliente = scanner.nextLine();
 
@@ -30,7 +30,7 @@ public class Main {
         System.out.print("Ingrese el plazo del préstamo (en años): ");
         byte plazoYears = scanner.nextByte();
 
-        // 💡 Fórmula del interés simple:
+        // Fórmula del interés :
         // Interés = monto * tasa * tiempo / 100
         double interesTotal = montoPrestamo * tasaInteres * plazoYears / 100;
 
